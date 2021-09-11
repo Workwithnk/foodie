@@ -1,4 +1,3 @@
-import dotenv from "dotenv";
 import React, { useState, useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import Spinner from "./Components/Spinner";
@@ -33,18 +32,30 @@ function App() {
                 <h1>{data.strMeal}</h1>
                 <div className="App_AllDetails">
                   <label>Ingredient :</label>
-                  <span>
-                    {data.strIngredient1},{data.strIngredient2},
-                    {data.strIngredient3},{data.strIngredient4},
-                    {data.strIngredient5},{data.strIngredient6},
-                    {data.strIngredient7},{data.strIngredient8},
-                    {data.strIngredient9},{data.strIngredient10},
-                    {data.strIngredient11},{data.strIngredient12},
-                    {data.strIngredient13},{data.strIngredient14},
-                    {data.strIngredient15},{data.strIngredient16},
-                    {data.strIngredient17},{data.strIngredient18},
-                    {data.strIngredient19},{data.strIngredient20},
-                  </span>
+
+                  <ul>
+                    <li>{data.strIngredient1}</li>
+                    <li>{data.strIngredient2}</li>
+                    <li>{data.strIngredient3}</li>
+                    <li>{data.strIngredient4}</li>
+                    <li>{data.strIngredient5}</li>
+                    <li>{data.strIngredient6}</li>
+                    <li>{data.strIngredient7}</li>
+                    <li>{data.strIngredient8}</li>
+                    <li>{data.strIngredient9}</li>
+                    <li>{data.strIngredient10}</li>
+                    <li>{data.strIngredient11}</li>
+                    <li>{data.strIngredient12}</li>
+                    <li>{data.strIngredient13}</li>
+                    <li>{data.strIngredient14}</li>
+                    <li>{data.strIngredient15}</li>
+                    <li>{data.strIngredient16}</li>
+                    <li>{data.strIngredient17}</li>
+                    <li>{data.strIngredient18}</li>
+                    <li>{data.strIngredient19}</li>
+                    <li>{data.strIngredient20}</li>
+                  </ul>
+
                   <label>Instructions : </label>
                   <span> {data.strInstructions} </span>
                   {`${data.strYoutube}` ? (

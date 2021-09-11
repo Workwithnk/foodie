@@ -6,7 +6,7 @@ import "../CSS/Navbar.css";
 function Navbar() {
   return (
     <div className="NavBar">
-      <a href="#" className="Nav_Details">
+      <a href="https://foodie-796e2.web.app/" className="Nav_Details">
         <img src={logo} alt="Logo" />
         <h1>Foodie</h1>
       </a>

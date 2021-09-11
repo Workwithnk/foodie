@@ -7,7 +7,7 @@
 
 .App_Data img {
   width: 85%;
-  height: 400px;
+  height: 500px;
   box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
   margin-bottom: 12px;
   border-radius: 5px;
@@ -32,7 +32,16 @@
   text-indent: 20px;
   font-family: monospace;
 }
+.App_AllDetails ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.App_AllDetails ul li {
+  list-style: none;
+}
 .App_AllDetails {
   display: flex;
   align-items: flex-start;
@@ -71,6 +80,7 @@
   font-weight: bold;
   letter-spacing: 2px;
   outline: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -90,11 +100,23 @@
 @media only screen and (max-width: 400px) {
   .App_Data img {
     width: 95%;
+    height: 350px;
   }
   .App_AllDetails {
     width: 95%;
   }
   .App_AllDetails span {
     font-size: 15px;
+  }
+  .App_Data h1 {
+    font-size: 22px;
+  }
+  .icon {
+    margin-left: 2px;
+    margin-right: 3px;
+  }
+
+  .Nav_Details h1 {
+    margin-left: 2px;
   }
 }
