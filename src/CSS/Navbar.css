@@ -1,0 +1,40 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2% 0%;
+}
+
+/* nav details */
+.Nav_Details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav_Details img {
+  width: 66px;
+}
+
+.Nav_Details h1 {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 48px;
+  margin-left: 10px;
+  color: black;
+}
+
+.NavBar_Follow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  color: black;
+  margin-bottom: -3px;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

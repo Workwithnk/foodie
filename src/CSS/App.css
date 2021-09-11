@@ -1,0 +1,100 @@
+.App_Data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App_Data img {
+  width: 85%;
+  height: 400px;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+.App_Data h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.App_AllDetails label {
+  margin: 10px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.App_AllDetails span {
+  font-size: 18px;
+  color: #34495e;
+  font-weight: lighter;
+  text-indent: 20px;
+  font-family: monospace;
+}
+
+.App_AllDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 10px 0px;
+}
+
+.App_AllDetails a {
+  background-color: #2c3e50;
+  padding: 6px 25px;
+  border-radius: 7px;
+  margin: 10px 0px;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.App_NextRecipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App_NextRecipe button {
+  width: 85%;
+  margin: 10px;
+  padding: 11px 0px;
+  border: none;
+  background-color: #2f3640;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .NavBar {
+    justify-content: space-between;
+    padding: 2%;
+  }
+
+  .Nav_Details img {
+    width: 45px;
+  }
+  .Nav_Details h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .App_Data img {
+    width: 95%;
+  }
+  .App_AllDetails {
+    width: 95%;
+  }
+  .App_AllDetails span {
+    font-size: 15px;
+  }
+}
