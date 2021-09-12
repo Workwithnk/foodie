@@ -74,6 +74,10 @@ function App() {
       <div className="App_NextRecipe">
         <button onClick={NextRecipe}>next recipe </button>
       </div>
+      <footer>
+        <p className="fSlogan">Happy cook, delicious foods</p>
+        <p className="fProvider"> -Nk❤️</p>
+      </footer>
     </div>
   );
 }
